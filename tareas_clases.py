@@ -11,3 +11,10 @@
 
 #A esto se lo suele llamar promedio ponderado: no todos los valores tienen el mismo "peso".
 #Por ejemplo, dado el ejercicio de arriba me conviene sacarme una mejor nota en el examen donde la nota vale casi el 50% de la nota final.
+
+
+
+print = int("verificar la nota")
+nota = int(input())
+if((nota)=(20%))
+print(10/20%)
