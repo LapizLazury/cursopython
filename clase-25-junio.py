@@ -1,3 +1,5 @@
+#___________________________clase 25 de junio del 2024__________________________
+
 #Longitud de String
 # Funcion LEN 
 
@@ -15,7 +17,7 @@ print(len(string1))
 #Fin va a ser el indice del ultimo caracter no incluido de la cadena que queremos rebanar.
 #Paso: indica cada cuantos caracteres seleccionaremos entre las posiciones de inicio y fin
 
-""" saludo = "Hola, como estan?"
+saludo = "Hola, como estan?"
 print(len(saludo))
 saludo[0:3:1]
 print(saludo[0:3:1])
@@ -23,7 +25,7 @@ print(saludo[0:3:1])
 print(saludo[0:17:2])
 
 
-palabra = "Pithon"
+"""palabra = "Pithon"
 print(palabra)
 
 print(palabra[1])

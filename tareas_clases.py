@@ -21,7 +21,7 @@ print(10/20%)"""
 # esto esta mal________________________________________________________
 
 # Solicitar las notas de los exámenes al usuario
-nota1 = float(input("Ingrese la nota del examen 1 (20%): "))
+"""nota1 = float(input("Ingrese la nota del examen 1 (20%): "))
 nota2 = float(input("Ingrese la nota del examen 2 (10%): "))
 nota3 = float(input("Ingrese la nota del examen 3 (10%): "))
 nota4 = float(input("Ingrese la nota del examen 4 (10%): "))
@@ -38,12 +38,13 @@ porcentaje5 = 0.50
 nota_final = (nota1 * porcentaje1) + (nota2 * porcentaje2) + (nota3 * porcentaje3) + (nota4 * porcentaje4) + (nota5 * porcentaje5)
 
 # Mostrar la nota final
-print("La nota final es: " + str(nota_final))
+print("La nota final es: " + str(nota_final))"""
 
 
 #_______________________________________________________________-
 
-#CLASE 25/6: TENIENDO DOS LISTA LA CUAL LLAMAREMOS lista_1 y lista_2 hay que hacer los siguientes ejercicios
+#CLASE 25/6: TENIENDO DOS LISTA LA CUAL LLAMAREMOS lista_1 y lista_2 hay que hacer 
+# los siguientes ejercicios:
 
 #Añadir a la lista_1 el entero 4567 y despues el string "UNAHUR"
 
@@ -59,4 +60,29 @@ print("La nota final es: " + str(nota_final))
 #                              AHORA CON TUPLAS
 #Crear una variable llamada tupla con más de 15 items y printear lo siguiente:
 
-# El ultimo item de la tupla creada, el numero de items de la misma, la posicion donde se encuentra algun item que haya dentro, una lista con los ultimos cuatro items de la tupla, un item que haya en la posicion 8, el numero de veces que se repite algún item dentro de la misma.
+# El ultimo item de la tupla creada, el numero de items de la misma,
+# la posicion donde se encuentra algun item que haya dentro, 
+# una lista con los ultimos cuatro items de la tupla, un item que haya en la posicion 8, 
+# el numero de veces que se repite algún item dentro de la misma.
+
+#________________________RESULTADO___________________________
+
+#Añadir a la lista_1 el entero 4567 y despues el string "UNAHUR"
+
+"""lista_1 = "4567"
+print(len(lista_1))
+string = "UNAHUR"
+print(len(string))"""
+
+#__________________________
+
+#Añadir a la lista_2 el string "EDUCACION" y despues el entero 789
+
+lista_2 = "789"
+print(len(lista_2))
+string = "EDUCACION"
+print = (len(string))
+
+#_____________________________
+
+#Crear una lista_3 con todos los elementos de la lista_1 MENOS el último
