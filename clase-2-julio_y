@@ -24,7 +24,7 @@
 #IGUALDAD 
 #El operador de igualdad sirve para preguntarle al programa si ambos operandos son iguales.
 #Nos va a devolfer TRUE si son iguales, y FALSE si son distintos
-# ESTE OPERADOR SE ESCIBE CON DOS SIGNOS IGUAL (==)
+# ESTE OPERADOR SE ESCRIBE CON DOS SIGNOS IGUAL (==)
 
 a = 3
 
@@ -65,71 +65,110 @@ print(1>2)
 #El operador MAYOR IGUAL QUE sirve para preguntarle a nuestro programa si el primer operando es mayor que el segundo operando O si ambos son iguales
 #Nos va a devolver TRUE si el primero es mayor o igual al segundo, y FALSE si el primero es menor que el segundo.
 #Este operador se escribe con un signo mayor que y un igual (>=)
-print( 7>=3)
-print(10>=10)
+print(7>=3)
+print(10>=10) 
 
 
 
 #Podemos hacer operaciones relacionales en strings inclusive.
+
 print("Hola" =="Hola")
 
 b = "Hola"
 
-
-print(b[1] == "o") # Aca le estoy pidiendo al programa que me diga si el indice 1 de la variable b es igual a "o"
-
+print(b[1] == "o") # Acá le estoy pidiendo al programa que me diga si el indice 1 de la variable b es igual a "o"
 
 
-""" false == true - falsa
-10 >= 2*4 - VERDADERA
-33/3 == 11 - VERDADERA
-TRUE > FALSE - VERDADERA
-true*5 == 2.5*2 -VERDADERA """
 
+""" False == True -falsa
+10 >= 2*4 - verdadera
+33/3 == 11 -verdadera
+True > False - verdadera
+True*5 == 2.5*2 -verdadera  """
 print(True*5 == 2.5*2)
 
 
-#___________________operadores logicos
-#NOT
-#NOT  es la negacion, o tambien conocido como NO. Solo afecta a tipos logicos TRUE Y FALSE y 
-# solo requiere un operador en una exprecion.
-print(not True)
+
+#_______________ OPERADORES LOGICOS
+#NOT 
+#NOT es la negación, o tambien conocido como NO. Solo afecta a los tipos logicos TRUE Y FALSE y solo requiere un operando en una expresion.
 print(not True == False)
 
-# conjuncion y disyuncion 
-#conjuncion viene de conjunto, agrupa uniendo.
-#disyuncion viene de diyunto, agrupa separando.
-#Verdadero y Verdadero.
 
-print( 2> 1 and 5 > 2)
-print(5> 25 and 20 <1)
+#Conjunción y Disyunción
+#Conjunción viene de conjunto, agrupa uniendo
+#Disyunción viene de disyunto, agrupa separando.
+
+#AND  es conocido como el Y
+#Va a unir una o varias sentencias logicas.
+#Verdadero Y Verdadero
+
+print ( 2> 1 and 5 > 2) 
+print( 5> 25 and 20<1)
 
 
-#true and true - true
-#true and false - false
-#false and false - false
-#false and true - false
+#True AND True - True
+#True AND False - False
+#False AND False - False
+#False and True - False
 
-#or es o en ingles.
-#es disyuncion (separa)
-# si le pregunto a python por dos afirmaciones y al menos una es TRUE , python me va a decir que la afirmacion es TRUE
+#OR es O en ingles.
+#Es Disyunción (separa)
+# Si le pregunto a python por dos afirmaciones y al menos una es TRUE, python me va a decir que la afirmación es TRUE
 
 print(2>1 or 5>2)
 print(5<20 or 20<1)
 
-#true o true - true
-#true o false - true
-#false o true - true
-#false o false - false
+# True o True - True
+# True o False - True 
+# False o True - True
+# False o False - False 
 
 
 
-# ejercicio mental expreciones
-#not false - VERDADERA
-#not 3== 5 - VERDADERA
-#33 / 3 == 11 and 5>2 - VERDADERA
-#true or false - VERDADERA
-#true*5 == 2.5*2 or 123>= 23 - VERDADERO
-#12> 7 and true < false - FALSE
 
-print(12> 7 and True < False)
+#Ejercicio Mental Expresiones
+# not False - verdadero
+# not 3 == 5 - verdadero
+# 33 /3 == 11 and 5>2 - verdadero
+#True or False - verdadero
+# True*5 == 2.5*2 or 123>= 23 - verdadero
+# 12> 7 and True < False - falso
+
+#NORMAS DE PRECEDENCIA
+#1. TERMINOS ENTRE PARENTESIS
+#2. POTENCIACIÓN Y RAICES
+#3. MULTIPLIACIÓN Y DIVISIÓN
+#4. SUMA Y RESTA
+
+d = 15
+e = 12
+print(d**e / 3 **e / e * d >= 15 and not (d%e **2) != 0)
+
+numero = 15
+
+a = 0
+a +=1
+
+print(a)
+
+b = 50
+b -=5
+b -=5
+b -=5
+print(b)
+
+c = 5
+c *= 10
+c *= 10
+c *= 10
+print(c)
+
+#  Operador         Ejemplo     Equivalente
+#  =                 a = 2         a = 2
+#  +=                a += 2        a = a + 2
+#  -=                a -= 2        a = a - 2
+# *=                a *= 2        a = a * 2
+# /=                a /= 2        a = a / 2
+#  %=
+# **= 
