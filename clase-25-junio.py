@@ -17,12 +17,12 @@ print(len(string1))
 #Fin va a ser el indice del ultimo caracter no incluido de la cadena que queremos rebanar.
 #Paso: indica cada cuantos caracteres seleccionaremos entre las posiciones de inicio y fin
 
-saludo = "Hola, como estan?"
+"""saludo = "Hola, como estan?"
 print(len(saludo))
 saludo[0:3:1]
 print(saludo[0:3:1])
 
-print(saludo[0:17:2])
+print(saludo[0:17:2])"""
 
 
 """palabra = "Pithon"
@@ -55,7 +55,7 @@ print(listita[-2:])
 
 print(listita + [otra_lista, "ALGO RANDOM"]) """
 
-""" numeros = [1,2,3,4,5,6,7,8,9,10]
+"""numeros = [1,2,3,4,5,6,7,8,9,10]
 print(numeros+[11,12,13,14,15,16])
 
 numeros = [99999,2,4,5,10,15,20]
@@ -74,38 +74,38 @@ print(letras)
 equipos = ["Moron", "River", "Boca", "Independiente"]
 print(equipos)
 equipos = []
-print(equipos) """
+print(equipos)"""
 
 
 #FUNCION APPEND
 #Nos permite agregar un nuevo item al final de una lista - Se escribe mi_lista.append(item_a_agregar)
-numeros = [1,2,3,4,5,6]
+"""numeros = [1,2,3,4,5,6]
 numeros.append(7)
-print(numeros)
+print(numeros)"""
 
 #Tambien podemos utilizar la funcion LEN acá - LEN se escribe len(la_lista_a_consultar_su_longitud)
-print(len(numeros))
+"""print(len(numeros))"""
 
-""" equipos = ["Moron", "River", "Boca", "Independiente"]
+"""equipos = ["Moron", "River", "Boca", "Independiente"]
 print(equipos)
-print(len(equipos)) """
+print(len(equipos))"""
 
 #FUNCION POP
 #La funcion todo lo contrario a Append, porque va a eliminar el ultimo item de una lista. - pop.() 
 
-""" equipos = ["Moron", "River", "Boca", "Independiente"]
+"""equipos = ["Moron", "River", "Boca", "Independiente"]
 equipos.pop()
-print(equipos) """
+print(equipos)"""
 #Si ingreso dentro del parentesis una posicion segun indice, POP elimina el indice correspondiente.
-equipos = [1, 2, 3, 4]
+"""equipos = [1, 2, 3, 4]
 equipos.pop(2)
-print(equipos)
+print(equipos)"""
 
 # FUNCION COUNT
 # La funcion COUNT cuenta el numero de veces que nuestro item se repite en una lista. - SE ESCRIBE la_lista_a_contar.count(el_item_que_queremos_que_cuente)
-numeros_varios = [1,2,3,5,9,12,55,20,20,20,3,5,59]
+"""numeros_varios = [1,2,3,5,9,12,55,20,20,20,3,5,59]"""
 #En este caso el item 20, se repite 3 veces
-print(numeros_varios.count(20))
+"""print(numeros_varios.count(20))"""
 
 #INDEX
 #Busca el item y nos devuelve en que indice está - SE ESCRIBE la_lista.index(lo_que_queremos_buscar)
@@ -118,21 +118,21 @@ print(numeros_varios.index(59))
 #Las tuplas son similares a las listas, la GRAN diferencia es que las tuplas son INMUTABLES.
 # Se declaran con parentesis - mi_tupla(1,2,3,4)
 
-mi_tupla = (1,2,3,4,5)
+"""mi_tupla = (1,2,3,4,5)
 print(mi_tupla)
+"""
+"""otra_tupla = (1,5,-100, "Cadena", "Otra cadena/string", mi_tupla)"""
 
-otra_tupla = (1,5,-100, "Cadena", "Otra cadena/string", mi_tupla)
-
-print(otra_tupla)
+"""print(otra_tupla)
 
 print(otra_tupla[0])
 
-print(otra_tupla[2:])
+print(otra_tupla[2:])"""
 
 
 
-print(len(otra_tupla))
+"""print(len(otra_tupla))
 
 print(otra_tupla.index(5))
 
-print(otra_tupla.count(1))
+print(otra_tupla.count(1))"""
