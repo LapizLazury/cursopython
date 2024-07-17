@@ -62,7 +62,7 @@ print("La nota final es: " + str(nota_final))"""
 # una lista con los ultimos cuatro items de la tupla, un item que haya en la posicion 8, 
 # el numero de veces que se repite algún item dentro de la misma.
 
-#________________________RESULTADO___________________________
+#________________________RESULTADO___________________________25/06
 
 #Añadir a la lista_1 el entero 4567 y despues el string "UNAHUR"
 
@@ -107,44 +107,38 @@ string = "EDUCACION"""
 #                              AHORA CON TUPLAS
 #Crear una variable llamada tupla con más de 15 items y printear lo siguiente:
 
-"""mi_tupla=(1, 2, 3, 7, 9, 8, 2, 2, 4, 66, 13, 47, 33, 25, 19)
-print(len(mi_tupla))"""
-
-# El ultimo item de la tupla creada, °
-# el numero de items de la misma, °
-# la posicion donde se encuentra algun item que haya dentro, °
-# una lista con los ultimos cuatro items de la tupla,
-# un item que haya en la posicion 8, °
-# el numero de veces que se repite algún item dentro de la misma.°
-
-mi_tupla=(1, 2, 3, 2, 9, 8, 2, 2, 4, 66, 13, 47, 33, 25, 19)
+"""mi_tupla=(1, 2, 3, 7, 9, 8, 2, 2, 50, 2, 13, 47, 33, 25, 19, 0)
+print(len(mi_tupla))
 
 # Buscamos el ultimo item
 print(mi_tupla[-1])
 
 # Buscamos el numero de items de la tupla
-print(mi_tupla.index(19))
+print(mi_tupla.index(0))
 
-#busca,os los numeros repetidos 
-print(mi_tupla.count(2))
+# la posicion donde se encuentra algun item que haya dentro
+
+print(mi_tupla[2])
+
+# Buscamos los ultimos 4 item
+
+print(f"{mi_tupla[11],mi_tupla[12],mi_tupla[13],mi_tupla[14]}")
 
 # Buscamos el item en la posición 8
 
 print(mi_tupla[8])
 
-# Buscamos el item añadido
-
-print(mi_tupla)
-
-
+#busca, los numeros repetidos 
+print(mi_tupla.count(2))
+"""
 
 # Inicializamos las listas
-"""lista_1 = []
-lista_2 = []"""
+lista_1 = [48]
+lista_2 = [3]
 
 # Añadimos elementos a lista_1
-"""lista_1.append(4567)
-lista_1.append("UNAHUR")"""
+lista_1.append(4567)
+lista_1.append("UNAHUR")
 
 # Añadimos elementos a lista_2
 """lista_2.append("EDUCACION")
