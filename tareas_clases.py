@@ -55,10 +55,7 @@ print("La nota final es: " + str(nota_final))"""
 #Crear una lista_4 con todos los elementos de la lista_2 MENOS el primero y último
 
 #Crear una lista_5 con todos los elementos de la lista_3 y de la lista_4
-
-
-#                              AHORA CON TUPLAS
-#Crear una variable llamada tupla con más de 15 items y printear lo siguiente:
+#______________________________________________________________________________________________
 
 # El ultimo item de la tupla creada, el numero de items de la misma,
 # la posicion donde se encuentra algun item que haya dentro, 
@@ -69,116 +66,142 @@ print("La nota final es: " + str(nota_final))"""
 
 #Añadir a la lista_1 el entero 4567 y despues el string "UNAHUR"
 
-lista_1 = "4567"
+"""lista_1 = "4567"
 print(len(lista_1))
 string = "UNAHUR"
-print(len(string))
+print(len(string))"""
 
 #__________________________
 
 #Añadir a la lista_2 el string "EDUCACION" y despues el entero 789
 
-lista_2 = "789"
+"""lista_2 = "789"
 print(len(lista_2))
 string = "EDUCACION"
-print = (len(string))
+print = (len(string))"""
 
 #_____________________________
 
 #Crear una lista_3 con todos los elementos de la lista_1 MENOS el último
- 
- #____________________________________________________________________________________
- #EJERCICO 3 : 2 / JULIO / 2024
- #                              AHORA CON TUPLAS
+"""lista_1 = "4567"
+print(len(lista_1))
+string = "UNAHUR"""
+
+#Crear una lista_4 con todos los elementos de la lista_2 MENOS el primero y último
+"""lista_2 = "789"
+print(len(lista_2))
+string = "EDUCACION"""
+
+#Crear una lista_5 con todos los elementos de la lista_3 y de la lista_4
+
+"""lista_1 = "4567"
+print(len(lista_1))
+string = "UNAHUR"
+lista_2 = "789"
+print(len(lista_2))
+string = "EDUCACION"""
+
+
+#____________________________________________________________________________________
+#EJERCICO 3 : 2 / JULIO / 2024
+#                              AHORA CON TUPLAS
 #Crear una variable llamada tupla con más de 15 items y printear lo siguiente:
 
-mi_tupla=(1, 2, 3, 7, 9, 8, 2, 2, 4, 66, 13, 47, 33, 25, 19)
-print(len(mi_tupla))
+"""mi_tupla=(1, 2, 3, 7, 9, 8, 2, 2, 4, 66, 13, 47, 33, 25, 19)
+print(len(mi_tupla))"""
 
-# El ultimo item de la tupla creada, 
-# el numero de items de la misma, 
-# la posicion donde se encuentra algun item que haya dentro, 
+# El ultimo item de la tupla creada, °
+# el numero de items de la misma, °
+# la posicion donde se encuentra algun item que haya dentro, °
 # una lista con los ultimos cuatro items de la tupla,
-# un item que haya en la posicion 8,
-# el numero de veces que se repite algún item dentro de la misma.
+# un item que haya en la posicion 8, °
+# el numero de veces que se repite algún item dentro de la misma.°
 
 mi_tupla=(1, 2, 3, 2, 9, 8, 2, 2, 4, 66, 13, 47, 33, 25, 19)
-mi_tupla.pop()
-print=(mi_tupla)
 
-print(len(mi_tupla))
+# Buscamos el ultimo item
+print(mi_tupla[-1])
 
+# Buscamos el numero de items de la tupla
 print(mi_tupla.index(19))
 
+#busca,os los numeros repetidos 
 print(mi_tupla.count(2))
 
-mi_tupla.pop()
-print=(mi_tupla)
+# Buscamos el item en la posición 8
+
+print(mi_tupla[8])
+
+# Buscamos el item añadido
+
+print(mi_tupla)
+
+
 
 # Inicializamos las listas
-lista_1 = []
-lista_2 = []
+"""lista_1 = []
+lista_2 = []"""
 
 # Añadimos elementos a lista_1
-lista_1.append(4567)
-lista_1.append("UNAHUR")
+"""lista_1.append(4567)
+lista_1.append("UNAHUR")"""
 
 # Añadimos elementos a lista_2
-lista_2.append("EDUCACION")
-lista_2.append(789)
+"""lista_2.append("EDUCACION")
+lista_2.append(789"""
 
 # Creamos lista_3 con todos los elementos de lista_1 menos el último
-lista_3 = lista_1[:-1]
+"""lista_3 = lista_1[:-1]"""
 
 # Creamos lista_4 con todos los elementos de lista_2 menos el primero y el último
-lista_4 = lista_2[1:-1]
+"""lista_4 = lista_2[1:-1]"""
 
 # Creamos lista_5 con todos los elementos de lista_3 y de lista_4
-lista_5 = lista_3 + lista_4
+"""lista_5 = lista_3 + lista_4"""
 
 # Printeamos las listas para verificar los resultados
-print("lista_1:", lista_1)
+"""print("lista_1:", lista_1)
 print("lista_2:", lista_2)
 print("lista_3:", lista_3)
 print("lista_4:", lista_4)
 print("lista_5:", lista_5)
-
+"""
 # Ahora trabajamos con tuplas
-tupla = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17)
+"""tupla = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17)"""
 
 # Printeamos el último item de la tupla
-print("Último item de la tupla:", tupla[-1])
+"""print("Último item de la tupla:", tupla[-1])"""
 
 # Printeamos el número de items de la tupla
-print("Número de items en la tupla:", len(tupla))
-
+"""print("Número de items en la tupla:", len(tupla))
+"""
 # Printeamos la posición de algún item específico
-item = 5
-print(f"Posición del item {item} en la tupla:", tupla.index(item))
+"""item = 5
+print(f"Posición del item {item} en la tupla:", tupla.index(item))"""
 
 # Creamos una lista con los últimos cuatro items de la tupla
-ultimos_cuatro = tupla[-4:]
-print("Últimos cuatro items de la tupla:", ultimos_cuatro)
+"""ultimos_cuatro = tupla[-4:]
+print("Últimos cuatro items de la tupla:", ultimos_cuatro)"""
 
 # Printeamos el item en la posición 8
-print("Item en la posición 8:", tupla[8])
+"""print("Item en la posición 8:", tupla[8])"""
 
 # Printeamos el número de veces que se repite algún item en la tupla
-item = 4
-print(f"El item {item} se repite {tupla.count(item)} veces en la tupla")
+"""item = 4
+print(f"El item {item} se repite {tupla.count(item)} veces en la tupla")"""
 
 #_______________________________________________________________-
 #CLASE 16 de Julio, analizar el código y explicar que hace cada linea,
 # luego reemplazarlo por otra condición
 #WHILE
-n = 10
+"""n = 10
 while n<10:
     if (n%2)==0:
         print(n,"Es un numero par")
     else:
         print(n,"es un numero impar")
     n+=1
-    
+    """
 #  IF ELSE ELIF
 # Construir un algoritmo con lo viste en clase bajo el mismo diagrama de flujo de la imagen 
 # que está en la carpeta assets del repo
