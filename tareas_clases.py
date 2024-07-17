@@ -69,19 +69,19 @@ print("La nota final es: " + str(nota_final))"""
 
 #Añadir a la lista_1 el entero 4567 y despues el string "UNAHUR"
 
-"""lista_1 = "4567"
+lista_1 = "4567"
 print(len(lista_1))
 string = "UNAHUR"
-print(len(string))"""
+print(len(string))
 
 #__________________________
 
 #Añadir a la lista_2 el string "EDUCACION" y despues el entero 789
 
-"""lista_2 = "789"
+lista_2 = "789"
 print(len(lista_2))
 string = "EDUCACION"
-print = (len(string))"""
+print = (len(string))
 
 #_____________________________
 
@@ -103,7 +103,7 @@ print(len(mi_tupla))
 # el numero de veces que se repite algún item dentro de la misma.
 
 mi_tupla=(1, 2, 3, 2, 9, 8, 2, 2, 4, 66, 13, 47, 33, 25, 19)
-mi_tupla.pop(0)
+mi_tupla.pop()
 print=(mi_tupla)
 
 print(len(mi_tupla))
@@ -116,7 +116,7 @@ mi_tupla.pop()
 print=(mi_tupla)
 
 # Inicializamos las listas
-"""lista_1 = []
+lista_1 = []
 lista_2 = []
 
 # Añadimos elementos a lista_1
@@ -165,4 +165,20 @@ print("Item en la posición 8:", tupla[8])
 
 # Printeamos el número de veces que se repite algún item en la tupla
 item = 4
-print(f"El item {item} se repite {tupla.count(item)} veces en la tupla")"""
+print(f"El item {item} se repite {tupla.count(item)} veces en la tupla")
+
+#_______________________________________________________________-
+#CLASE 16 de Julio, analizar el código y explicar que hace cada linea,
+# luego reemplazarlo por otra condición
+#WHILE
+n = 10
+while n<10:
+    if (n%2)==0:
+        print(n,"Es un numero par")
+    else:
+        print(n,"es un numero impar")
+    n+=1
+    
+#  IF ELSE ELIF
+# Construir un algoritmo con lo viste en clase bajo el mismo diagrama de flujo de la imagen 
+# que está en la carpeta assets del repo
