@@ -108,58 +108,32 @@ string = "EDUCACION"""
 #Crear una variable llamada tupla con más de 15 items y printear lo siguiente:
 
 """mi_tupla=(1, 2, 3, 7, 9, 8, 2, 2, 50, 2, 13, 47, 33, 25, 19, 0)
-print(len(mi_tupla))
+print(len(mi_tupla))"""
 
 # Buscamos el ultimo item
-print(mi_tupla[-1])
+"""print(mi_tupla[-1])"""
 
 # Buscamos el numero de items de la tupla
-print(mi_tupla.index(0))
+"""print(mi_tupla.index(0))"""
 
 # la posicion donde se encuentra algun item que haya dentro
 
-print(mi_tupla[2])
+"""print(mi_tupla[2])"""
 
 # Buscamos los ultimos 4 item
 
-print(f"{mi_tupla[11],mi_tupla[12],mi_tupla[13],mi_tupla[14]}")
+"""print(f"{mi_tupla[11],mi_tupla[12],mi_tupla[13],mi_tupla[14]}")"""
 
 # Buscamos el item en la posición 8
 
-print(mi_tupla[8])
+"""print(mi_tupla[8])"""
 
 #busca, los numeros repetidos 
-print(mi_tupla.count(2))
-"""
+"""print(mi_tupla.count(2))"""
 
-# Inicializamos las listas
-lista_1 = [48]
-lista_2 = [3]
 
-# Añadimos elementos a lista_1
-lista_1.append(4567)
-lista_1.append("UNAHUR")
+#____________________________ECHO POR EL PROFESOR_______________________________________________________________________________
 
-# Añadimos elementos a lista_2
-"""lista_2.append("EDUCACION")
-lista_2.append(789"""
-
-# Creamos lista_3 con todos los elementos de lista_1 menos el último
-"""lista_3 = lista_1[:-1]"""
-
-# Creamos lista_4 con todos los elementos de lista_2 menos el primero y el último
-"""lista_4 = lista_2[1:-1]"""
-
-# Creamos lista_5 con todos los elementos de lista_3 y de lista_4
-"""lista_5 = lista_3 + lista_4"""
-
-# Printeamos las listas para verificar los resultados
-"""print("lista_1:", lista_1)
-print("lista_2:", lista_2)
-print("lista_3:", lista_3)
-print("lista_4:", lista_4)
-print("lista_5:", lista_5)
-"""
 # Ahora trabajamos con tuplas
 """tupla = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17)"""
 
@@ -188,14 +162,19 @@ print(f"El item {item} se repite {tupla.count(item)} veces en la tupla")"""
 #CLASE 16 de Julio, analizar el código y explicar que hace cada linea,
 # luego reemplazarlo por otra condición
 #WHILE
-"""n = 10
-while n<10:
+n = 5
+while n >5:
     if (n%2)==0:
         print(n,"Es un numero par")
-    else:
-        print(n,"es un numero impar")
+        break
     n+=1
-    """
+else:
+        print(n,"es un numero impar")
+    
+
+
+    
+    
 #  IF ELSE ELIF
 # Construir un algoritmo con lo viste en clase bajo el mismo diagrama de flujo de la imagen 
 # que está en la carpeta assets del repo

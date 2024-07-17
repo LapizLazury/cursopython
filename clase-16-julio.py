@@ -9,16 +9,16 @@
 
 #1. E
 
-numero = 10 #la variable
+"""numero = 10 #la variable
 while numero >0:
     print(numero)
     numero-= 1
-print("termino el conteo")   
+print("termino el conteo")""" 
 
-n = 0
+"""n = 0
 while n <=5:
     n+=1
-    print("N vale", n)
+    print("N vale", n)"""
     
 #WHILE condicion :
 #  intrucciones de while
@@ -27,7 +27,7 @@ while n <=5:
 #si noce termino con break
 #  intrucciones de while-else
 
-chanse =1
+"""chanse =1
 while chanse <= 3:
     txt = input("Escribe SI: ")
     if txt == "SI": 
@@ -36,5 +36,5 @@ while chanse <= 3:
     chanse +1
 else:
     print("No lograste en los 3 intentos")
-    
+    """
     
