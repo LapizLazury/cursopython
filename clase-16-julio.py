@@ -36,3 +36,5 @@ while chanse <= 3:
     chanse +1
 else:
     print("No lograste en los 3 intentos")
+    
+    
